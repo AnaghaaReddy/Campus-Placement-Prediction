@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Pridiction</title>
+</head>
+<body>
+    <h1>Placement Prediction of Student</h1>
+    <form action ="/login" method="post">
+        <label for ="genders"> Choose the gender</label>
+        <select name ="gender">
+            <option value = "f">Female</option>
+            <option value = "m">Male</option>
+        </select>
+
+        <p>SSC Percentage</p>
+        <input type="text" name="ssc"/>
+
+        <p>Higher Secondary Education Percentage</p>
+        <input type="text" name="hse"/> 
+        <br>
+        <br>
+        <label for ="hses">Higher Scedondary Education Specialization</label>
+        <select name="hsep">
+            <option value = "comm">Commerce</option>
+            <option value = "scie">Science</option>
+            <option value = "arts">Arts</option>
+        </select>
+
+        <p>Degree Percentage</p>
+        <input type="text" name="dp"/>
+
+        <br>
+        <br>
+        <label for = "degree feild">Degree Feild</label>
+        <select name="df">
+            <option value = "commMang">Comm&Mgmt</option>
+            <option value = "sciTech">Science&Tech</option>
+            <option value = "others">Others</option>
+        </select>
+
+        <p>Work Experience</p>
+        <input type="text" name="we"/>
+
+        <p>Employability Test Percentage</p>
+        <input type="text" name="etp"/>
+
+        <p>MBA Percentage</p>
+        <input type="text" name="mbap"/>
+
+        <br>
+        <br>
+        <label for ="mba Specialization">MBA Specialization</label>
+        <select name="mbasp">
+            <option value = "mktHr">Mkt&HR</option>
+            <option value = "mktFin">Mkt&Fin</option>
+        </select>
+        <p><input type="submit" value="submit" /></p>
+    </form>
+
+    <h2>{{y}}</h2>
+
+    
+</body>
+</html>
